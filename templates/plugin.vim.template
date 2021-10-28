@@ -1,0 +1,7 @@
+" in case users resource vimrc to avoid redefining functionality
+if exists('g:loaded_{{sanitized_plugin_name}}')
+    finish
+endif
+let g:loaded_{{sanitized_plugin_name}} = 1
+
+" TODO plugin functionality that executes during vim startup goes here

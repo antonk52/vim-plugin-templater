@@ -1,0 +1,14 @@
+" cancel all previous highlights and syntax
+" to avoid overlapping colors from different themes
+highlight clear
+syntax reset
+
+" Name your theme to be able to look up current theme name using `color`
+let g:colors_name = "{{plugin_name}}"
+
+" Now you can start matching highlighting group with colors
+" Example
+highlight String guifg=#a3be8c ctermfg=0B
+highlight Error guifg=#2b303b guibg=#bf616a ctermfg=00 ctermbg=08 gui=bold cterm=bold
+
+" To see all defined highlighting groups run `highlight`

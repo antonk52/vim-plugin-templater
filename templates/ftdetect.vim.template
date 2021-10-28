@@ -1,0 +1,6 @@
+" This file executes during vim start up
+
+" Usually it should contain of a few autocommands to detect the filetype
+
+" Example, for all buffers with extension `foo` set filetype `foo`
+" autocmd BufRead,BufNew *.foo set filetype=foo

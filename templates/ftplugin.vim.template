@@ -1,0 +1,7 @@
+" This file is sourced every time a filetype is set to the same value
+" as the name of this file. Here should be applied buffer local settings
+
+" useful help searches setlocal
+
+" setlocal comments=s1fl:{-,mb:\ \ ,ex:-},:--\ \|,:--
+" setlocal commentstring=--\ %s

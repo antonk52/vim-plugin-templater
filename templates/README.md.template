@@ -1,0 +1,36 @@
+# {{plugin_name}}
+
+## Demo
+
+TODO
+
+## Installation
+
+Using [vim-plugin](https://github.com/junegunn/vim-plug)
+
+```vim
+Plug {{github_name}}/{{plugin_name}}
+```
+
+Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use '{{github_name}}/{{plugin_name}}'
+```
+
+## Setup
+
+TODO
+
+## Examples / usage
+
+TODO
+
+## How to contribute
+
+TODO
+
+## Clearly defined public API
+
+TODO
+
