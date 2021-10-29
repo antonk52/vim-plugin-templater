@@ -45,6 +45,11 @@ function vim_plugin_templater#vim#create() abort
     call mkdir(cwd.'/plugin')
     call PopulateTemplate('plugin.vim', cwd.'/plugin/'.sanitized_plugin_name.'.vim', options)
 
+    " docs
+    call mkdir(cwd.'/doc')
+    call PopulateTemplate('doc-docs', cwd.'/doc/'.sanitized_plugin_name.'.txt', options)
+    call PopulateTemplate('doc-tags', cwd.'/doc/tags', options)
+
     if (needs_syntax)
         call mkdir(cwd.'/syntax')
         call PopulateTemplate('syntax.vim', cwd.'/syntax/sample.vim', options)

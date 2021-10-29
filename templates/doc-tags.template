@@ -1,0 +1,4 @@
+{{sanitized_plugin_name}}	{{sanitized_plugin_name}}.txt	*{{sanitized_plugin_name}}*
+feature-one	{{sanitized_plugin_name}}.txt	*feature-one*
+feature-two	{{sanitized_plugin_name}}.txt	*feature-two*
+CommandFoo	{{sanitized_plugin_name}}.txt	*CommandFoo*

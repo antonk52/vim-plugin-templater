@@ -6,6 +6,6 @@
 " imagine this dictionary is really long
 let {{sanitized_plugin_name}}#thing = {}
 
-function {{sanitized_plugin_name}} () abort
+function {{sanitized_plugin_name}}#do_stuff () abort
     " function body
 endfunction
