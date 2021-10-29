@@ -1,7 +1,13 @@
+" Rename this plugin to a filetype that you want to set buffer local settings
+" For example if you want your settings to apply to markdown files
+" name this file `markdown.vim`
+
 " This file is sourced every time a filetype is set to the same value
 " as the name of this file. Here should be applied buffer local settings
 
-" useful help searches setlocal
+" useful help searches:
+" - `setlocal` for buffer local settings
+" - `<buffer>` for buffer local key mappings
 
 " setlocal comments=s1fl:{-,mb:\ \ ,ex:-},:--\ \|,:--
 " setlocal commentstring=--\ %s

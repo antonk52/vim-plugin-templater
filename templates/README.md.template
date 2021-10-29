@@ -9,7 +9,7 @@ TODO
 Using [vim-plugin](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug {{github_name}}/{{plugin_name}}
+Plug '{{github_name}}/{{plugin_name}}'
 ```
 
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
@@ -30,7 +30,7 @@ TODO
 
 TODO
 
-## Clearly defined public API
+## Public API
 
 TODO
 

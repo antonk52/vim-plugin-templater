@@ -1,0 +1,11 @@
+" here you can define functions and valibles that will be loaded on demand
+
+" this file will only be parsed and executed when a user reads
+" {{sanitized_plugin_name}}#thing value " or calls the function below
+
+" imagine this dictionary is really long
+let {{sanitized_plugin_name}}#thing = {}
+
+function {{sanitized_plugin_name}} () abort
+    " function body
+endfunction
